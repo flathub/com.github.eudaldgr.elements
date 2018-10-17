@@ -5,6 +5,10 @@
     "runtime": "org.freedesktop.Platform",
     "sdk": "org.freedesktop.Sdk",
     "runtime-version": "18.08",
+    "rename-desktop-file": "com.github.freeeradicals.elements.desktop",
+    "rename-appdata-file": "com.github.freeeradicals.elements.appdata.xml",
+    "rename-icon": "com.github.freeeradicals.elements",
+    "copy-icon": true,
     "command": "com.github.freeeradicals.elements",
     "finish-args": [
         / * X11 + XShm * /
