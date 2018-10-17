@@ -1,0 +1,10 @@
+--- a/data/com.github.freeeradicals.elements.appdata.xml	2018-10-17 13:20:18.568004550 +0200
++++ b/data/com.github.freeeradicals.elements.appdata.xml	2018-10-17 13:21:10.935115988 +0200
+@@ -1,6 +1,6 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <component type="desktop">
+-  <id>com.github.freeeradicals.elements</id>
++  <id>com.github.eudaldgr.elements</id>
+   <metadata_license>CC0</metadata_license>
+   <project_license>GPL-3.0+</project_license>
+   <name>Elements</name>

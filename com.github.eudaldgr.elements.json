@@ -28,6 +28,12 @@
                 "type": "archive",
                 "url": "https://github.com/FreeeRadicals/elements/archive/v0.0.3.tar.gz",
                 "sha256": "62b2533401ddefa4ce93b2655d98c20070025009aaf8793c6e989e0c1e5123f8"
+            },{
+                "type": "patch",
+                "path": "fix-app-id.patch"
+            },{
+                "type": "patch",
+                "path": "elementary-theme.patch"  
             }]
         }
     ]

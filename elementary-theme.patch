@@ -1,0 +1,11 @@
+--- a/src/Application.vala	2018-10-17 13:24:46.719575258 +0200
++++ b/src/Application.vala	2018-10-17 13:25:43.095695255 +0200
+@@ -44,6 +44,8 @@
+             loadGresources();
+
+             var window = new MainWindow();
++            Gtk.Settings.get_default().set_property("gtk-theme-name", "elementary");
++            Gtk.Settings.get_default().set_property("gtk-icon-theme-name", "elementary");
+             window.destroy.connect (Gtk.main_quit);
+             window.show_all();
+         }
