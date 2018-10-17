@@ -5,7 +5,11 @@
     "runtime": "org.freedesktop.Platform",
     "sdk": "org.freedesktop.Sdk",
     "runtime-version": "18.08",
-    "command": "com.github.eudaldgr.elements",
+    "rename-desktop-file": "com.github.freeeradicals.elements.desktop",
+    "rename-appdata-file": "com.github.freeeradicals.elements.appdata.xml",
+    "rename-icon": "com.github.freeeradicals.elements",
+    "copy-icon": true,
+    "command": "com.github.freeeradicals.elements",
     "finish-args": [
         / * X11 + XShm * /
         "--share=ipc", "--socket=x11",
@@ -22,8 +26,14 @@
             "config-opts": ["--buildtype=release"],
             "sources": [{
                 "type": "archive",
-                "url": "https://github.com/freee-radicals/elements/archive/v0.0.2.tar.gz",
-                "sha256": "4f4dac12a9c15bbe3a584610c07c341a632c5a19d73382a68d947ada7bb4fddb"
+                "url": "https://github.com/FreeeRadicals/elements/archive/v0.0.3.tar.gz",
+                "sha256": "62b2533401ddefa4ce93b2655d98c20070025009aaf8793c6e989e0c1e5123f8"
+            },{
+                "type": "patch",
+                "path": "fix-app-id.patch"
+            },{
+                "type": "patch",
+                "path": "elementary-theme.patch"  
             }]
         }
     ]
